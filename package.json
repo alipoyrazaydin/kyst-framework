@@ -1,0 +1,30 @@
+{
+  "name": "kyst-framework",
+  "version": "1.0.0",
+  "description": "Kyst is a framework project for your next-generation Discord bot!",
+  "main": "bot.kyst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alipoyrazaydin/kyst-framework.git"
+  },
+  "keywords": [
+    "kyst-framework",
+    "kyst",
+    "kyst-bot",
+    "discord.js",
+    "discord-bot"
+  ],
+  "author": "alipoyrazaydin",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/alipoyrazaydin/kyst-framework/issues"
+  },
+  "homepage": "https://github.com/alipoyrazaydin/kyst-framework#readme",
+  "dependencies": {
+    "better-sqlite3": "^8.3.0",
+    "discord.js": "^14.9.0"
+  }
+}
