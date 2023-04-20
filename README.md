@@ -13,7 +13,8 @@ It wraps around Discord.JS's code through prototypes! It currently wraps around 
 2. Check the template commands.
 3. Change the configuration to your likings.
 4. Change `bot.kyst.js`'s process settings.
-5. Run it with `node .` and it's ready!
+5. Run `npm install` to install necessary libraries.
+6. Run it with `node .` and it's ready!
 ### Examples:
 Reactions Example:
 ```js
