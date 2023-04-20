@@ -92,8 +92,8 @@ module.exports = {
 #### Default Configuration File (with all optional areas)
 ```js
 module.exports = {
-    deployMode: false,
     discord: {
+        deployMode: false,
         token: undefined,
         prefix: "k.",
         color: 0xFF2B63,
