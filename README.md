@@ -143,6 +143,7 @@ module.exports = {
 Quick note for `CommandStructure`: it's literally just `SlashCommandBuilder()` with some extras
 ```js
 module.exports = {
+    skipDeploy: false,
     structure: new CommandStructure()
       .setName("hello")
       .setDescription("An example command")
