@@ -57,6 +57,8 @@ async run(interaction){
       .onSubmit(modalInteraction => {
         modalInteraction.reply(`Hello, ${modalInteraction.getTextInputValue("mytextbox")}!`);
       })
+  ;
+  interaction.showModal(modal);
 }
 ```
 ### Default Configuration File
