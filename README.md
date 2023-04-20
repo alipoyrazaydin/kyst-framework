@@ -164,7 +164,7 @@ module.exports = {
 }
 ```
 ### Available Methods for the bot (`global.Bot`)
-```js
+```d
 Bot.application // Application Element, fetched after login
 Bot.addEvent(<eventName>, <function>) // equivalent of bot.on()
 Bot.removeEvent(<eventName>, <function>) // equivalent of bot.off()
@@ -173,7 +173,7 @@ bot.addCommand(<command>) // adds a command (see Command Example)
 bot.removeCommand(<commandName>) // removes a command
 ```
 ### Available Methods for utilities (`global`)
-```js
+```d
 requireAbsolute(<path:string>) // requires by absolute path (from script startup path)
 
 // Error checking
