@@ -123,8 +123,7 @@ module.exports = {
         "Kyst.ComponentManagement.IdleTimeout": 30_000,
         "Kyst.ComponentManagement.ModalTimeout": 30_000,
         "Kyst.Database.WALOptimizationEnabled": true,
-        "Kyst.Database.DisableHeartbeatVerbose": true,
-        "Kyst.Embeds.DefaultColorOverride": null
+        "Kyst.Database.DisableHeartbeatVerbose": true
     }
 }
 ```
